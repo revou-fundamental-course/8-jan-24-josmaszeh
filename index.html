@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katik</title>
+
+    <!-- My Javascrip -->
+    <script src="js/script.js"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My style  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <span class="tittle">KATIK</span>
+      <span class="subtittle">Kalkulator Matematik</span>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <div class="welcome">
+          <h1>Welcome to Katik</h1>
+          <p>
+            Hai Sobat, Selamat datang di Katik :]<br />
+            Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas
+            dan keliling bangun datar
+          </p>
+        </div>
+        <div class="box">
+          <!-- Luas Persegi  -->
+          <h2 class="judul">Luas Persegi</h2>
+          <img src="asset/square.png" alt="square" />
+          <p class="squar"><b>Bujur Sangkar</b></p>
+          <div class="formula-dec">
+            <p>Rumus Luas Persegi yaitu:</p>
+            <p class="rumus">L = S x S</p>
+            <p>Dimana :</p>
+            <p>L = Luas</p>
+            <p class="sisi">S = Sisi</p>
+          </div>
+          <br />
+          <hr />
+          <h2>Hitung Luas</h2>
+          <div>
+            <input id="sisi-luas" name="sisi-luas" type="number" parequired />
+            <p class="result" id="rumus-luas">L = S x S</p>
+            <p class="result" id="perhitungan-luas">L = S x S</p>
+            <p class="result" id="output-luas"></p>
+            <button
+              class="hitung"
+              id="hitung-luas"
+              name="hitung-luas"
+              onclick="hitungLuas()"
+            >
+              Hitung
+            </button>
+            <br />
+            <button
+              class="reset"
+              id="reset-luas"
+              name="reset-luas"
+              onclick="resetLuas()"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+        <div class="box">
+          <!-- Keliling Persegi  -->
+          <h2 class="judul">Keliling Persegi</h2>
+          <img src="asset/square.png" alt="square" />
+          <p class="squar"><b>Bujur Sangkar</b></p>
+          <div class="formula-dec">
+            <p>Rumus Keliling Persegi yaitu:</p>
+            <p class="rumus">K = 4 x S</p>
+            <p>Dimana :</p>
+            <p>K = Keliling</p>
+            <p class="sisi">S = Sisi</p>
+          </div>
+          <br />
+          <hr />
+          <h2>Hitung Keliling</h2>
+          <div>
+            <input
+              id="sisi-keliling"
+              name="sisi-keliling"
+              type="number"
+              required
+            />
+            <p class="result" id="rumus-keliling">K = 4 x S</p>
+            <p class="result" id="perhitungan-keliling">K = 4 x S</p>
+            <p class="result" id="output-keliling"></p>
+            <button
+              class="hitung"
+              id="hitung-keliling"
+              name="hitung-keliling"
+              onclick="hitungKeliling()"
+            >
+              Hitung
+            </button>
+            <br />
+            <button
+              class="reset"
+              id="reset-keliling"
+              name="reset-keliling"
+              onclick="resetKeliling()"
+            >
+              Reset
+            </button>
+            <br />
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer">
+        <p>Creat by <a href="https://www.t.me/Dimasnk97">Denka</a></p>
+      </div>
+    </main>
+  </body>
+</html>

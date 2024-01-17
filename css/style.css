@@ -1,0 +1,209 @@
+/* Warna Pokok */
+:root {
+  --primary: #06adef;
+  --bg: #cfcdcd;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Poppins" sans-serif;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: #1c03fd;
+  padding: 20px 20px;
+  background: #053bce;
+  background: -moz-linear-gradient(left, #053bce 0%, #6105a4 57%, #c50a76 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #053bce 0%,
+    #6105a4 57%,
+    #c50a76 100%
+  );
+  background: linear-gradient(to right, #053bce 0%, #6105a4 57%, #c50a76 100%);
+}
+
+.tittle {
+  color: var(--primary);
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18,
+    2px 2px 2px rgba(6, 173, 239, 0);
+}
+
+.subtittle {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 5px;
+  font-style: italic;
+}
+
+/* Main */
+.container {
+  background: #fff;
+  margin: 20px 30px 50px 30px;
+  padding: 0px 50px 50px 50px;
+}
+
+.welcome {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5,
+    -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5,
+    -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 2px -11px 0px rgba(5, 10, 255, 0);
+}
+
+.welcome p {
+  margin-top: 10px;
+}
+
+.box {
+  border: 2px solid #000;
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.judul {
+  padding: 20px;
+  text-align: center;
+  background-color: #1c03fd;
+  border-radius: 3px;
+  color: #ffffff;
+  text-shadow: 3px 2px 0 #7a7a7a;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.squar {
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.rumus {
+  text-align: center;
+  font-weight: 700;
+}
+
+.formula-dec p {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: medium;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.result {
+  display: none;
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.hitung {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  transform: translateY(-6px);
+}
+
+.hitung:active {
+  transform: translateY(-4px);
+}
+
+.reset {
+  display: block;
+  margin-right: 10px;
+  margin-left: auto;
+  padding: 5px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #fff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #fff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  transform: translateY(-6px);
+}
+
+.reset:active {
+  transform: translateY(-4px);
+}
+
+/* Footer */
+.footer {
+  padding: 15px;
+  background: #053bce;
+  background: -moz-linear-gradient(left, #053bce 0%, #6105a4 57%, #c50a76 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #053bce 0%,
+    #6105a4 57%,
+    #c50a76 100%
+  );
+  background: linear-gradient(to right, #053bce 0%, #6105a4 57%, #c50a76 100%);
+  margin-top: -30px;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.footer a:hover {
+  color: #f705b6;
+  padding: 5px;
+  border: 5px outset rgba(164, 4, 158, 0.25);
+  border-radius: 5px 0px 1px 5px;
+}
